@@ -23,3 +23,7 @@ task :console do
   ARGV.clear
   IRB.start
 end
+
+# Fake environment task to test db tasks
+task :environment do
+end
